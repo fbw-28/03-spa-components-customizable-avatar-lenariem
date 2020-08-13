@@ -2,13 +2,11 @@ import React from 'react';
 import Img from './Img';
 
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       
-        <Img  className = "m circle"
-              type="circle"
-              size="60x60"
+        <Img  className = "imgItem m circle"
               src="./img/dog.jpg" 
               alt="avatar"  />
       
