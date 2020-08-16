@@ -9,7 +9,6 @@ export default class ImgNewWindow extends Component {
     };
     this.onSize = this.onSize.bind(this);
     this.onType = this.onType.bind(this);
-
   }
 
   onSize(event) {
@@ -24,15 +23,16 @@ export default class ImgNewWindow extends Component {
     });
   }
 
+  
   render() {
     const { size, type } = this.state;
     return (
       <div className="avatar">
+        <h1>Customize your avatar</h1>
         <img
           src="./img/dog.jpg"
           alt="avatar"
           className={`${size} ${type}`}
-          onSize={this.onSize}
         />
         <label htmlFor="sizes">Choose size of your avatar:</label>
         <select name="select" id="sizes" onClick={this.onSize}>
