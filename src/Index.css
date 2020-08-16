@@ -10,8 +10,11 @@ h1 {
 .avatar {
     width: 30%;
     height: 30%;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     padding: 1%;
+}
+.avatar:hover {
+    border: 1px solid black;
 }
 
 
@@ -50,3 +53,11 @@ p {
 span {
     font-weight: bold;
 }
+
+label, select {
+    font-size: 2em;
+    display: block;
+    padding: 1%;
+}
+
+
