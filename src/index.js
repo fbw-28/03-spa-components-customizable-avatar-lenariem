@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import reactDOM from "react-dom";
 import "./Index.css";
-import "./ImgNewWindow";
 
-/* 
+//import ImgNewWindow from "./ImgNewWindow";
+//reactDOM.render(<ImgNewWindow />, document.getElementById("root"));
+
+
 function ImgItem({ size = "m", type = "square", sides }) {
     return (
     <div className="avatar" onClick={(e) => window.open('e.target')}>
@@ -41,6 +43,3 @@ const All = () => {
 };
 
 reactDOM.render(<All />, document.getElementById("root"));
- */
-
-yreactDOM.render(<ImgNewWindow />, document.getElementById("root"));

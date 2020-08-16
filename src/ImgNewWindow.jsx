@@ -37,14 +37,14 @@ export default class ImgNewWindow extends Component {
         <label htmlFor="sizes">Choose size of your avatar:</label>
         <select name="select" id="sizes" onClick={this.onSize}>
           <option value="s">s</option>
-          <option value="m">m</option>
+          <option value="m" selected>m</option>
           <option value="l">l</option>
           <option value="xl">xl</option>
         </select>
         <label htmlFor="types">Choose type of your avatar:</label>
         <select name="select" id="sizes" onClick={this.onType}>
           <option value="rounded">rounded</option>
-          <option value="square">square</option>
+          <option value="square" selected>square</option>
           <option value="circle">circle</option>
         </select>
       </div>
