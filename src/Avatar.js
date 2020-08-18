@@ -3,20 +3,20 @@ import img from "./img/dog.jpg";
 import "./Index.css";
 
 
-function ImgItem(props) {
+function ImgItem({size ="m", type ="square", sides}) {
     return (
       <div className="avatar">
       <img 
       src={img} 
       alt="avatar"
-      className={`${props.size} ${props.type}`}
+      className={`${size} ${type}`}
       
       />
       <p className="size">
-        Size <span>{props.size}</span> with {props.sides}
+        Size <span>{size}</span> with {sides}
       </p>
       <p className="type">
-        Type <span>{props.type}</span>
+        Type <span>{type}</span>
       </p>
     </div>
     
