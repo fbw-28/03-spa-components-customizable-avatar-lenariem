@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    width: 30%;
+    height: 30%;
+    border: 1px solid lightgray;
+    padding: 1%;
+}
+.avatar:hover {
+    border: 1px solid black;
+}
+
+
+.s {
+    width: 30px;
+    height: 30px;
+}
+
+.m {
+    width: 60px;
+    height: 60px;
+}
+
+.l {
+    width: 120px;
+    height: 120px;
+}
+
+.xl {
+    width: 200px;
+    height: 200px;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+p {
+    font-size: 24px;
+}
+
+span {
+    font-weight: bold;
+}
+
+label, select {
+    font-size: 2em;
+    display: block;
+    padding: 1%;
+}
+
+
